@@ -1,6 +1,6 @@
 # Author: Lubembe Michael
 
-![alt="photo of michael" width="200" height="200"](images/guy.jpg)
+![alt="photo of michael" width="100" height="100"](images/guy.jpg)
 
 ## **Lubembe Michael's Website**
 
