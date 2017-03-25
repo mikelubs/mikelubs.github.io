@@ -238,7 +238,7 @@ a:hover {
   width: 140px;
   height: 140px;
   overflow: hidden;
-  border: 9px solid rgba(0, 0, 0, 0.05);
+  border: 9px solid #BAE4AD;
   margin: 0 auto;
 }
 #head .title {
@@ -648,6 +648,7 @@ footer.entry-meta .meta-in {
   margin-top: 0;
   margin-bottom: 30px;
 }
+
 /*********************************************************************
 
 
