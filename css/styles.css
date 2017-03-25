@@ -1,12 +1,14 @@
 html {
   font-size: 100%;
 }
+
 body {
   font-size: 15px;
   font-size: 0.9375rem;
   font-family: "Open sans", Helvetica, Arial, sans-serif;
   color: #666666;
   padding: 0;
+  background-color: #EEFFD0;
 }
 .topspace {
   margin-top: 40px;
@@ -83,7 +85,7 @@ body {
   background-color: #ffffff;
 }
 .navbar-default .dropdown ul.dropdown-menu > li > a {
-  color: #454545;
+  color: ##3B5323;
 }
 .navbar-default .dropdown ul.dropdown-menu > li > a:hover {
   background-color: #eeeeee;
@@ -253,7 +255,7 @@ a:hover {
   font-size: 14px;
   font-size: 0.875rem;
   line-height: 1.2em;
-  color: #7C7C7C;
+  color: #000;
   margin: 5px 0 0;
 }
 #head .tagline b {
