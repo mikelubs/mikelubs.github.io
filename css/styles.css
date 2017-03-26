@@ -316,6 +316,10 @@ img {
   padding: 12px 35px;
   text-shadow: 0 1px 0px #780d33;
 }
+
+.col-sm-8 img {
+  border-radius: 90%;
+}
 .btn-primary {
   color: #fff;
   background-color: #bd1550;
