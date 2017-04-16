@@ -225,8 +225,7 @@ h1, h2, h3, h4, h5 {
   min-height: 100%;
   min-width: 100%;
   z-index: 0;
-  background-color: rgb(13, 13, 13);
-  background-image: url(../images/);
+  background-image: url(../images/bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: inherit;
@@ -239,7 +238,7 @@ h1, h2, h3, h4, h5 {
   top: 0;
   left: 0;
   z-index: 1;
-  background: rgb(217, 217, 217, 0.4);
+  background: rgba(92, 180, 142, 0.4);
 
 }
 
@@ -276,7 +275,7 @@ h1, h2, h3, h4, h5 {
 .welcome-text {
   position: relative;
   margin-top: 60px;
-  color: #fff;
+  color: rgb(217, 217, 217);
   font-weight: bold;
 }
 .welcome-text h2 {
@@ -424,6 +423,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .logo-top-margin img {
+  border: solid 2px #207d59;
   border-radius: 90%;
 }
 @media screen and (max-width: 992px) {
