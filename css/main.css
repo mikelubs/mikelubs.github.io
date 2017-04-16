@@ -222,13 +222,13 @@ h1, h2, h3, h4, h5 {
 
 .site-bg {
   position: fixed;
-  height: 100%;
-  width: 100%;
+  min-height: 100%;
+  min-width: 100%;
   z-index: 0;
-  background-image: url(../images/back1.jpg);
+  background-image: url(../images/back.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: inherit;
 }
 
 .site-bg-overlay {
@@ -238,7 +238,7 @@ h1, h2, h3, h4, h5 {
   top: 0;
   left: 0;
   z-index: 1;
-  background: rgba(92, 180, 142, 0.4);
+  background: rgba(0,0,30,.3);
 
 }
 
