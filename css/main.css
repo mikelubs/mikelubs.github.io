@@ -280,7 +280,8 @@ h1, h2, h3, h4, h5 {
 }
 .welcome-text h2 {
   font-size: 42px;
-  font-family: 'Ubuntu', sans-serif;
+  font-weight: lighter;
+  font-family: 'Pacifico', cursive;
   margin-bottom: 30px;
   color: yellow;
 }
@@ -427,7 +428,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .logo-top-margin img {
-  border: solid 2px #207d59;
+  border: solid 2px orange;
   border-radius: 90%;
 }
 @media screen and (max-width: 992px) {
