@@ -30,7 +30,11 @@
 }
 
 .orange {
-	color: #FC0;
+	color: lime;
+}
+
+.orange:hover {
+  color: #fff;
 }
 
 .blue {
@@ -225,6 +229,7 @@ h1, h2, h3, h4, h5 {
   min-height: 100%;
   min-width: 100%;
   z-index: 0;
+  background-color: #000;
   background-image: url(../images/back3.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -238,7 +243,7 @@ h1, h2, h3, h4, h5 {
   top: 0;
   left: 0;
   z-index: 1;
-  background: rgb(0, 26, 0, .4);
+  background: rgb(0, 0, 0, .4);
 
 }
 
@@ -275,7 +280,7 @@ h1, h2, h3, h4, h5 {
 .welcome-text {
   position: relative;
   margin-top: 60px;
-  color: #fff;
+  color: yellow;
   font-weight: bold;
 }
 .welcome-text h2 {
@@ -283,7 +288,7 @@ h1, h2, h3, h4, h5 {
   font-weight: lighter;
   font-family: 'Pacifico', cursive;
   margin-bottom: 30px;
-  color: yellow;
+  color: #fff;
 }
 .welcome-text p {
   font-size: 25px;
@@ -409,16 +414,32 @@ h1, h2, h3, h4, h5 {
   background: #207d59;
 }
 
+.fa-home {
+  color: white;
+}
+
 .aboutbutton {
   background: #5c9faf;
+}
+
+.fa-user {
+  color: white;
 }
 
 .projectbutton {
   background: #3b5b8e;
 }
 
+.fa-briefcase {
+  color: orange;
+}
+
 .contactbutton {
   background: #b85b53;
+}
+
+.fa-envelope {
+  color: yellow;
 }
 
 .logo-top-margin {
@@ -428,7 +449,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .logo-top-margin img {
-  border: solid 2px orange;
+  border: solid 2px lime;
   border-radius: 90%;
 }
 @media screen and (max-width: 992px) {
