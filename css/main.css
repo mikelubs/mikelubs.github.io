@@ -279,14 +279,18 @@ h1, h2, h3, h4, h5 {
   font-weight: bold;
 }
 .welcome-text h2 {
-  font-size: 32px;
-  font-family: 'robotolight';
+  font-size: 42px;
+  font-family: 'Ubuntu', sans-serif;
   margin-bottom: 30px;
   color: yellow;
 }
 .welcome-text p {
-  font-size: 18px;
-  font-family: 'robotolight';
+  font-size: 25px;
+  font-weight: lighter;
+  line-height: 48px;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 1px;
+
 }
 
 .subscribe-form {
