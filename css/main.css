@@ -30,11 +30,11 @@
 }
 
 .orange {
-	color: lime;
+	color: orange;
 }
 
 .orange:hover {
-  color: #fff;
+  color: #207d59;;
 }
 
 .blue {
@@ -230,7 +230,7 @@ h1, h2, h3, h4, h5 {
   min-width: 100%;
   z-index: 0;
   background-color: #000;
-  background-image: url(../images/back3.jpg);
+  background-image: url(../images/back.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -243,7 +243,7 @@ h1, h2, h3, h4, h5 {
   top: 0;
   left: 0;
   z-index: 1;
-  background: rgb(0, 0, 0, .4);
+  background: rgba(0, 0, 0, .7);
 
 }
 
@@ -280,22 +280,20 @@ h1, h2, h3, h4, h5 {
 .welcome-text {
   position: relative;
   margin-top: 60px;
-  color: yellow;
-  font-weight: bold;
+  color: #fff;
 }
 .welcome-text h2 {
   font-size: 42px;
   font-weight: lighter;
   font-family: 'Pacifico', cursive;
   margin-bottom: 30px;
-  color: #fff;
+  color: #207d59;
 }
 .welcome-text p {
   font-size: 25px;
-  font-weight: lighter;
   line-height: 48px;
   font-family: 'Open Sans', sans-serif;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
 
 }
 
@@ -360,6 +358,11 @@ h1, h2, h3, h4, h5 {
   z-index: 10;
   padding: 14px 0;
   background: rgba(0, 0, 0, 0.7);
+}
+
+.dev {
+  color: orange;
+  letter-spacing: 1px;
 }
 
 .phone-info a {
@@ -449,7 +452,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .logo-top-margin img {
-  border: solid 2px lime;
+  border: solid 2px orange;
   border-radius: 90%;
 }
 @media screen and (max-width: 992px) {
@@ -525,6 +528,11 @@ h1, h2, h3, h4, h5 {
   margin-right: 25px;
   float: left;
 }
+
+.text-center {
+  padding: 10px;
+}
+
 .profile-thumb img {
   width: 100%;
   display: block;
@@ -690,6 +698,13 @@ h1, h2, h3, h4, h5 {
   outline: 0;
   margin-bottom: 0;
   padding: 12px 18px;
+}
+
+.mail-1 {
+  border: solid 1px #5cb48e;
+  background: #5cb48e;
+  padding: 5px 25px 5px 10px;
+  color: #fff;
 }
 
 /*---------------------------------------------------------
